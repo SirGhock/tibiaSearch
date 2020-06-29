@@ -1,0 +1,77 @@
+.App{
+  display: flex;
+
+  margin-top: 20px;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f6f8fa;
+  height: 100vh;
+  margin-top: 0;
+}
+.topContainer{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  align-items: center;
+
+}
+.buttonSearch{
+  height: 45px;
+
+}
+
+.searchContainer{
+  margin-right: 30px;
+}
+
+.separatorLine{
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  opacity: 0.3;
+}
+
+.cardContainer{
+  margin-top: 80px;
+  padding: 30px 5px 30px 5px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.infoContainer{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.statusContainer{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.minorInfoContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.cardSearchContainer{
+  display: flex;
+  flex-direction: column;
+  padding: 15px 20px 15px 20px;
+  align-items: center;
+}
+
+.inputAndButton{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.warning{
+  margin-top: 20px;
+  font-size: 10px;
+  opacity: 0.5;
+}
